@@ -2,7 +2,7 @@ struct MyQuestionAnswerer {
     func responseTo(question: String) -> String {
         
         let lowerQuestion = question.lowercased()
-        
+        // let : 변수 선언 : case insensitive
         if lowerQuestion == "where are the cookies?" {
             return "In the cookie jar!"
         } else if lowerQuestion.hasPrefix("where") {
